@@ -23,7 +23,7 @@
         <p class="subJudul">" Tingkatkan Kemampuanmu "</p>
         <hr color="white" width="60%">
         <button class="btn btn-primary" onclick="location.href='event'">Lihat Semua Events</button>
-    </div><br>
+    </div><br> 
 @endsection
 @section('content')
     <div class="container text-center">
