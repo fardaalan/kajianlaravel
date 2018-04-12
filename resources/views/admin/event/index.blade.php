@@ -13,7 +13,21 @@ Event
 @section('content')
 <div class="container p-4">
   <h1 class="text-center">E V E N T</h1>
-    <a class="btn btn-md btn-success" href="event/create">Tambah Event</a><br><br>
+  <div class="btn-group" role="group" aria-label="...">
+  <button type="button" class="btn btn-success btn-md" onclick="location.href='event/create'">Tambah Event</button>
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Laporan
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="event/pdf">PDF</a></li>
+      <li><a href="event/excel">Excel</a></li>
+    </ul>
+  </div>
+  </div>
+
+    <br><br>
   <table class="table">
     <tr>
       <th>No</th>
